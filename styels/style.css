@@ -49,6 +49,8 @@ header{
     color: white;
 }
 .button  :hover {
+    transform: scale(1.1);
+    transition-duration:1s;
     border-radius: 50px;
 }
 
@@ -112,6 +114,8 @@ color: white;
     transform:scale(1.2);
     transition: transform 2s;
 }
+
+/* players end*/
 
 
 /* all-highlights */
