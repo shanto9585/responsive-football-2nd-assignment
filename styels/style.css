@@ -72,6 +72,7 @@ color: white;
 .half-width-right img:hover{
     transform: rotate(10deg) scale(1.1);
     transition: transform 1s ease-in-out;
+    
 }
 
 /* Header and */
@@ -211,11 +212,11 @@ width: 100%;
 .footer-icon :hover{
     transform: scale(1.5);
     color:  #E02C6D;
-    }
-    .footer h4{
-        font-size: 18px;
-        font-weight: 400;
-    }
+}
+.footer h4{
+    font-size: 18px;
+    font-weight: 400;
+}
 
 
 
