@@ -90,25 +90,29 @@ color: white;
     grid-template-columns: repeat(3, 1fr);
 }
 .player-cart{
+    width: 330px;
+    height: 474px;
     margin: 15px;
     padding: 15px;
     box-shadow: 5px 5px 15px rgba(128, 128, 128, 0.575);
 
 }
 .players-details h2{
+    margin: 16px 0 10px 0 ;
     font-weight: 700;
     font-size: 28px;
-
 }
 .players-details p{
+    margin: 0;
     line-height: 26px;
-   
-    font: 16px;
+    font-size: 16px;
 }
 .player-image img{
     width: 100%;
 }
 .player-image{
+    height: 256px;
+    width: 100%;
     overflow: hidden;
 }
 
@@ -124,15 +128,18 @@ color: white;
     display: flex;
     align-items: center;
 }
-.all-highlights p{
-    font: 16px;
-}
 .all-highlights h1{
+
+    margin: 0 0 8px 0;
     font-weight: 800;
-    font: 48px;
+    font-size: 48px;
 }
 
+.all-highlights p{
+    margin: 0 0 24px 0;
+    font: 16px;
 
+}
 
 .all-highlights-details{
     padding-right: 50px;
@@ -345,7 +352,6 @@ width: 100%;
 }
 .login, .footer, .watch-match {
    margin-top: 60px;
-}
 }
 }
 
