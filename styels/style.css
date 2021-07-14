@@ -90,8 +90,6 @@ color: white;
     grid-template-columns: repeat(3, 1fr);
 }
 .player-cart{
-    width: 330px;
-    height: 474px;
     margin: 15px;
     padding: 15px;
     box-shadow: 5px 5px 15px rgba(128, 128, 128, 0.575);
@@ -201,7 +199,7 @@ width: 100%;
     
 }
 .footer img {
-    width: 40%;
+    width: 50%;
 }
 .footer-icon{
     font-size: 30px;
