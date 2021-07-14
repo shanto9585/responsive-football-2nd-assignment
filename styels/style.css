@@ -1,12 +1,7 @@
 
-/* fonts  */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-
-/* fonts end */
-
-
 /* common style  */
 body{
+    font-family: 'Poppins', sans-serif;
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
@@ -14,9 +9,7 @@ main{
     display: flex;
     justify-content: center;
 }
-p{
-    color: #6C6C6C;
-}
+
 .container{
     width: 1050px;
     
@@ -101,6 +94,7 @@ color: white;
     font-size: 28px;
 }
 .players-details p{
+    color: #6C6C6C;
     margin: 0;
     line-height: 26px;
     font-size: 16px;
@@ -134,6 +128,7 @@ color: white;
 }
 
 .all-highlights p{
+    color: #6C6C6C;
     margin: 0 0 24px 0;
     font: 16px;
 
